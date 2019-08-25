@@ -19,6 +19,6 @@ public class HelloController {
 
     @RequestMapping(value="/print.action")
     public String print(){
-        return "你好！！！就斤斤计较";
+        return "你好！！！";
     }
 }
