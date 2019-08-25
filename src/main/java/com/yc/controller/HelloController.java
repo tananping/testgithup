@@ -15,4 +15,10 @@ public class HelloController {
     public String say(){
         return "hello world";
     }
+
+
+    @RequestMapping(value="/print.action")
+    public String print(){
+        return "你好！！！";
+    }
 }
